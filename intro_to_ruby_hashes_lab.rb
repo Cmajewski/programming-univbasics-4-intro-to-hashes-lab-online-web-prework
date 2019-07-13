@@ -14,8 +14,8 @@ def id_generator
   {id: 4}
 end
 
-def my_hash_creator(key, value)
-   {key:value}
+def my_hash_creator(name, value)
+   {name=>value}
 
 end
 
