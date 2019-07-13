@@ -19,11 +19,12 @@ def my_hash_creator(name, value)
 
 end
 
-def hash{}
+
 def read_from_hash(hash, key)
+hash{}
 hash[key:]
 end
-end
+
 
 def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
